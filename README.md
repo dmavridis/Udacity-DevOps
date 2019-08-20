@@ -6,7 +6,7 @@ The purpose of this Project is to develop a simple application applying the prin
 
 Due to  small experience with DevOps, I decided to use a very simple application, that includes an `index.html` file, which is deployed to a Docker image of an Nginx server, as shown in the following pipeline. 
 
-![pipeline](images\pipeline.png)
+![pipeline](images/pipeline.png)
 
 After thorough search, I decided to use Jenkins-X due to its native support for Kubernetes and I also wanted to experiment. Due to the simplicity of the application, I found it easier to use rolling deployment; any change is directly applied to the application. 
 
@@ -50,7 +50,7 @@ jenkins           jenkins.jx.35.187.176.187.nip.io           35.187.176.187   80
 nexus             nexus.jx.35.187.176.187.nip.io             35.187.176.187   80      5m36s
 ```
 
-![nodes](C:\Users\mavridis\OneDrive - Qualcomm\Documents\udc\Capstone\images\nodes.png)
+![nodes](images/nodes.png)
 
 
 
@@ -60,15 +60,15 @@ Jenkins-X comes with some project templates. Since the application I wanted to u
 
 The initial webpage looks like the screenshot. 
 
-![version1](images\version1.png)
+![version1](images/version1.png)
 
 Doing a small change in the html file, after a few minutes a new version is up as shown in the following screenshots:
 
 
 
-![1566341023889](images\steps.png)
+![1566341023889](images/steps.png)
 
-![version2](images\version2.png)
+![version2](images/version2.png)
 
 
 
